@@ -49,6 +49,20 @@
 
 #-------------------------
 
+#Ejercicio 4
+#Mayor de edad: Sistema de control de acceso a un sitio para adultos.
+
+pedirEdad = int(input("Ingresa tu edad: "))
+
+if pedirEdad >= 18:
+    print(f"Tu edad es {pedirEdad}, Bienvenid@")
+elif pedirEdad < 18 & pedirEdad >= 6:
+    print(f"Tu edad es {pedirEdad}. Lo siento, no puedes ingresar")
+elif pedirEdad > 120:
+    print(f"Tu edad es {pedirEdad}. Imposibleee")
+elif pedirEdad <= 5 & pedirEdad >= 0:
+    print(f'Tu edad es {pedirEdad},aun eres un bebe, no puedes ingresar')
+
 
     
 
