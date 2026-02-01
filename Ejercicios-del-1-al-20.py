@@ -132,10 +132,110 @@
 #Ejercicio 11
 #Calcular el area de un triangulo
 
-print("Calculadora de area de un triangulo")
-base = int(input("Ingresa la base del triangulo: "))
-altura = int(input("Ingresa la altura del triangulo: "))
-areaTriangulo = (base * altura) / 2
-print(f"El area del triangulo es igual a: {areaTriangulo}")
+# print("Calculadora de area de un triangulo")
+# base = int(input("Ingresa la base del triangulo: "))
+# altura = int(input("Ingresa la altura del triangulo: "))
+# areaTriangulo = (base * altura) / 2
+# print(f"El area del triangulo es igual a: {areaTriangulo}")
 
 #-----------------------------------
+
+#Ejercicio 12
+#Kilómetros a metros
+
+# print("Calculadora de kilometros a metros")
+# kilometros = float(input("Ingresa la cantidad de kilometros a convetir a metros: "))
+# metros = kilometros * 1000
+# print(f"{kilometros} kilometros equivalen a: {metros} metros")
+
+#------------------------------------
+
+# Ejercicio 13
+#Horas a segundos
+
+# print("Calculadora de horas a segundos")
+# horas = float(input("Ingresa la cantidad de horas que quieres convertir a segundos: "))
+# horasASegundos = (horas * 60) * 60
+# print(f"{horas} horas equivalen a: {horasASegundos} segundos.")
+
+#-----------------------------------
+
+#Ejercicio 14
+#Promedio de 3 notas
+
+# print("Calcular el promedio de 3 notas")
+# nota1 = float(input("Ingresa la primer nota: "))
+# nota2 = float(input("Ingresa la segunda nota: "))
+# nota3 = float(input("Ingresa la tercer nota: "))
+# notaPromedio = (nota1 + nota2 + nota3) / 3
+# print(f"El promedio de las notas ingresadas es de: {notaPromedio}")
+
+#---------------------------
+
+#Ejercicio 15
+# Salario anual
+
+# print("Calcular un salario anual con un sueldo mensual fijo")
+# salarioMensual = float(input("Ingrese el salario mensual: "))
+# salarioAnual = salarioMensual * 12
+# print(f"El salario anual es de: {salarioAnual}")
+
+#-----------------------------
+
+#Ejercicio 16
+# Área del círculo
+
+# print("Calcular el area de un circulo pidiendo el radio")
+# radio = float(input("Ingresa el radio del circulo: "))
+# areaCirculo = 3.1416 * (radio ** 2)
+# print(f"El area del circulo es de: {areaCirculo}")
+
+#-----------------------------
+
+#Ejercicio 17
+#Cuadrado de un número
+
+# print("Calcular el resultado de un numero al cuadrado")
+# numero = float(input("Ingresa un numero para calcular su resultado al cuadrado: "))
+# numeroAlCuadrado = numero ** 2
+# print(f"El resultado de {numero} al cuadrado es de: {numeroAlCuadrado}")
+
+#------------------------------
+
+#Ejercicio 18
+# Mayor de dos números
+
+# print("Comparar 2 numeros para mostrar el mayor de los 2")
+# numero1 = float(input("Ingresa el primer numero: "))
+# numero2 = float(input("Ingresa el segundo numero: "))
+# if numero1 > numero2:
+#     print(f"{numero1} es mayor que {numero2}")
+# elif numero2 > numero1:
+#     print(f"{numero2} es mayor que {numero1}")
+# else:
+#     print("Los numeros son iguales")
+
+#-----------------------------------
+
+#Ejercicio 19
+#Positivo o negativo
+
+# print("Observar si el numero es negativo o positivo")
+# numero = int(input("Ingresa un  numero: "))
+# if numero > 0:
+#     print(f"{numero} es positivo")
+# elif numero == 0:
+#     print("El numero ingresado es 0. El 0 no cuenta como negativo ni como positivo")
+# else:
+#     print(f"{numero} es negativo")
+
+#---------------------------------
+
+#Ejercicio 20
+# Frase con datos
+
+print("Frase con datos como nombre y edad")
+nombre = input("ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
+print(f"Hola mundo, soy {nombre} y tengo {edad} años")
+
