@@ -84,7 +84,7 @@
 # print("Calculadora de area de un rectangulo")
 # baseRectangulo = int(input("Ingresa la base del rectangulo: "))
 # alturaRectangulo = int(input("Ingresa la altura del rectangulo: "))
-# areaRectangulo = (baseRectangulo * alturaRectangulo) / 2
+# areaRectangulo = (baseRectangulo * alturaRectangulo)
 # print(f"El area del rectangulo es: {areaRectangulo}")
 
 #----------------------------------
@@ -128,4 +128,14 @@
 # print(f"El valor total a pagar con IVA es: {valorProductoConIVA}")
 
 #----------------------------------
+
 #Ejercicio 11
+#Calcular el area de un triangulo
+
+print("Calculadora de area de un triangulo")
+base = int(input("Ingresa la base del triangulo: "))
+altura = int(input("Ingresa la altura del triangulo: "))
+areaTriangulo = (base * altura) / 2
+print(f"El area del triangulo es igual a: {areaTriangulo}")
+
+#-----------------------------------
