@@ -55,17 +55,33 @@
 # D: 60–69
 # F: < 60
 
-print("Clasificación de notas")
-nota = int(input("Ingresa una nota entre 0 y 100: "))
-if nota < 101 and nota > 89:
-    print(f"La nota es: A")
-elif nota < 90 and nota > 79:
-    print("La nota es: B")
-elif nota < 80 and nota > 69:
-    print("La nota es: C")
-elif nota < 70 and nota > 59:
-    print("La nota es: D")
-elif nota < 60:
-    print("La nota es: F")
+# print("Clasificación de notas")
+# nota = int(input("Ingresa una nota entre 0 y 100: "))
+# if nota < 101 and nota > 89:
+#     print(f"La nota es: A")
+# elif nota < 90 and nota > 79:
+#     print("La nota es: B")
+# elif nota < 80 and nota > 69:
+#     print("La nota es: C")
+# elif nota < 70 and nota > 59:
+#     print("La nota es: D")
+# elif nota < 60:
+#     print("La nota es: F")
+# else:
+#     print("La nota ingresada es invalida")
+
+
+# Ejercicio 25
+#Año bisiesto: Calendario
+# Requisitos
+# Un año es bisiesto si:
+# divisible entre 4
+# no divisible entre 100
+# o divisible entre 400
+
+print("Saber si un año es bosiesto")
+anio = int(input("Ingresa el año para verificar si es bisiesto: "))
+if (anio % 4 == 0 and anio % 100 != 0) or anio % 400 == 0:
+    print(f"{anio} es bisiesto")
 else:
-    print("La nota ingresada es invalida")
+    print(f"{anio} no es bisiesto")
