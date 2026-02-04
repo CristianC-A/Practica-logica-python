@@ -70,6 +70,7 @@
 # else:
 #     print("La nota ingresada es invalida")
 
+#--------------------------------------
 
 # Ejercicio 25
 #Año bisiesto: Calendario
@@ -79,9 +80,129 @@
 # no divisible entre 100
 # o divisible entre 400
 
-print("Saber si un año es bosiesto")
-anio = int(input("Ingresa el año para verificar si es bisiesto: "))
-if (anio % 4 == 0 and anio % 100 != 0) or anio % 400 == 0:
-    print(f"{anio} es bisiesto")
-else:
-    print(f"{anio} no es bisiesto")
+# print("Saber si un año es bosiesto")
+# anio = int(input("Ingresa el año para verificar si es bisiesto: "))
+# if (anio % 4 == 0 and anio % 100 != 0) or anio % 400 == 0:
+#     print(f"{anio} es bisiesto")
+# else:
+#     print(f"{anio} no es bisiesto")
+
+#-------------------------------------
+
+#Ejercicio 26
+# Contraseña correcta: Sistema login.
+# Requisitos
+# Pedir contraseña.
+# Compararla con una guardada.
+# Mostrar acceso permitido o denegado.
+
+# print("Acceder si una contraseña es correcta")
+# contrasenaGuardada = "GbcvD13579"
+# contrasenaIngresada = input("Ingresa la contraseña: ")
+
+# if contrasenaIngresada == contrasenaGuardada:
+#     print("Acceso permitido, bienvenido")
+# else:
+#     print("Acceso denegado, ingresa la contraseña correcta")
+
+#-----------------------------------
+
+#Ejercicio 27
+# # Mayor de tres números: Sistema de análisis.
+# Requisitos
+# Pedir tres números.
+# Mostrar el mayor.
+
+# print("Comparar 3 numeros y mostrar el mayor")
+# numero1 = int(input("Ingresa el primer numero: "))
+# numero2 = int(input("Ingresa el segundo numero: "))
+# numero3 = int(input("Ingresa el tercer numero: "))
+
+# if numero1 > numero2 and numero1 > numero3:
+#     print(f"{numero1} es el mayor")
+# elif numero2 > numero1 and numero2 > numero3:
+#     print(f"{numero2} es el mayor")
+# else:
+#     print(f"{numero3} es el mayor")
+
+#--------------------------------------
+
+#Ejercicio 28
+# Clasificar edad: Sistema médico.
+# Requisitos
+# Edad:
+# 0–12 niño
+# 13–17 adolescente
+# 18–64 adulto
+# 65+ adulto mayor
+
+# print("Clasificar la edad")
+# edadIngresada = int(input("Ingresa la edad: "))
+# if edadIngresada >= 0 and edadIngresada <= 12:
+#     print(f"{edadIngresada} esta en el rango de edad de niño")
+# elif edadIngresada > 12 and edadIngresada <= 17:
+#     print(f"{edadIngresada} esta en el rango de edad de adolescente")
+# elif edadIngresada >= 18 and edadIngresada <= 64:
+#     print(f"{edadIngresada} esta en el rango de edad de adulto")
+# else:
+#     print(f"{edadIngresada} esta en el rango de edad de adulto mayor")
+
+#--------------------------------
+
+#Ejercicio 29
+# Múltiplo de 5: Sistema matemático.
+# Requisitos
+# Pedir número.
+# Ver si es múltiplo de 5.
+
+# print("Saber si un numero es multiplo de 5")
+# numero = int(input("Ingresa un numero para verificar si es multiplo de 5: "))
+# if numero % 5 == 0:
+#     print(f"{numero} es multiplo de 5")
+# else:
+#     print(f"{numero} no es multiplo de 5")
+
+#-------------------------------------
+
+#Ejercicio 30
+# Validar rango: Formulario web.
+# Requisitos
+# Pedir número.
+# Validar si está entre 1 y 100.
+
+# print("Verificar si el numero ingresado esta en el rango permitido")
+# numero = int(input("Ingresa un numero entre 1 y 100: "))
+# if numero >= 1 and numero <= 100:
+#     print(f"{numero} esta dentro del rango sugerido")
+# else:
+#     print(f"{numero} no esta dentro del rango sugerido")
+
+#--------------------------------------
+
+#Ejercicio 31
+# Semáforo: Sistema de tráfico.
+# Requisitos
+# Pedir color.
+# Mostrar acción:
+# rojo → detener
+# amarillo → precaución
+# verde → avanzar
+
+# print("Semaforo")
+# colorIngresado = input('''Ingresa un color para sugerirte la accion a seguir
+#                        Rojo
+#                        Amarillo o
+#                        Verde: ''')
+# #Convertir el texto ingresado a minusculas para evitar errores
+# colorEnMinusculas = colorIngresado.lower()
+
+# if colorEnMinusculas == "rojo":
+#     print(f"Rojo: Debes detenerte")
+# elif colorEnMinusculas == "amarillo":
+#     print("Amarillo: Debes tener precaucion")
+# elif colorEnMinusculas == "verde":
+#     print("Verde: Puedes avanzar")
+# else:
+#     print("El color ingresado no es correcto")
+
+#------------------------------------
