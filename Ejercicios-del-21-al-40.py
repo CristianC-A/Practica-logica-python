@@ -206,3 +206,50 @@
 #     print("El color ingresado no es correcto")
 
 #------------------------------------
+
+# Ejercicio 32
+# Índice de masa corporal (IMC): Sistema de salud.
+# Requisitos
+# Pedir peso y altura.
+# Calcular IMC.
+# Clasificar:
+# bajo peso
+# normal
+# sobrepeso
+# obesidad
+
+print("Calcular el Indice de Masa Corporal de una persona segun sus peso y estatura")
+# # Para calcular el IMC de una persona se hace con el peso en kilogramos, la altura en metros
+# # La altura se debe multiplicar al cuadrado, luego el peso se debe dividir por este resultado de la altura
+# # Bajo peso: Menos de 18.5.
+# # Normal: 18.5 – 24.9.
+# # Sobrepeso: 25.0 – 29.9.
+# # Obesidad: 30.0 o superior. Estos son los 4 rangos para clasificar los resultados obtenidos
+
+# peso = float(input("Ingresa tu peso en kilogramos: "))
+# altura = float(input("Ingresa tu altura en metros: "))
+# indiceMasaCorporal = peso / (altura ** 2)
+# if indiceMasaCorporal < 18.5:
+#     print(f"Su indice de masa corporal es {indiceMasaCorporal}: Esta bajo peso")
+# elif indiceMasaCorporal >= 18.5 and indiceMasaCorporal <= 24.9:
+#     print(f"Su indice de masa corporal es {indiceMasaCorporal}: esta entre el rango de normalidad de peso")
+# elif indiceMasaCorporal >= 25 and indiceMasaCorporal <= 29.9:
+#     print(f"Su indice de masa corporal es {indiceMasaCorporal}: Esta en sobrepeso")
+# elif indiceMasaCorporal >= 30:
+#     print(f"Su indice de masa corporal es {indiceMasaCorporal}: esta en estado de obesidad")
+    
+#-----------------------------
+
+#Ejercicio 33
+# Divisible entre 3 y 7: Sistema matemático.
+# Requisitos
+# Ver si es divisible entre 3 y 7 al mismo tiempo.
+
+# print("Saber si un numero es divisible entre 3 y 7")
+# numeroAVerificar = int(input("Ingresa el numero para verificar si es divisible entre 3 y 7: "))
+# if numeroAVerificar%3 == 0 and numeroAVerificar%7 == 0:
+#     print(f"{numeroAVerificar} es divisible entre 3 y 7")
+# else:
+#     print(f"{numeroAVerificar} no es divisible entre 3 y 7")
+
+#------------------------------------------
