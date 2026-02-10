@@ -218,7 +218,7 @@
 # sobrepeso
 # obesidad
 
-print("Calcular el Indice de Masa Corporal de una persona segun sus peso y estatura")
+# print("Calcular el Indice de Masa Corporal de una persona segun sus peso y estatura")
 # # Para calcular el IMC de una persona se hace con el peso en kilogramos, la altura en metros
 # # La altura se debe multiplicar al cuadrado, luego el peso se debe dividir por este resultado de la altura
 # # Bajo peso: Menos de 18.5.
@@ -253,3 +253,106 @@ print("Calcular el Indice de Masa Corporal de una persona segun sus peso y estat
 #     print(f"{numeroAVerificar} no es divisible entre 3 y 7")
 
 #------------------------------------------
+
+# Ejercicio 34
+# Impuesto según salario: Sistema tributario.
+# Requisitos
+# Si salario:
+# < 1M → 0%
+# 1M–3M → 10%
+# > 3M → 20%
+
+# print("Se calculara el impuesto a pagar segun el salario")
+# salario = (float(input("Ingresa tu salario mensual: $")))
+# impuestos = 0
+# if salario < 1000000:
+#     impuestos = 0
+#     print(f"El valor total de impuestos a pagar es: ${impuestos}")
+# elif salario >= 1000000 and salario <= 3000000:
+#     impuestos = salario * 0.10
+#     print(f"El valor total de impuestos a pagar es: ${impuestos}")
+# elif salario > 3000000:
+#     impuestos = salario * 0.20
+#     print(f"El valor total de impuestos a pagar es: ${impuestos} ")
+    
+#-------------------------------------
+
+#Ejercicio 35
+#Aprobar materia: Sistema educativo.
+# Requisitos
+# Nota >= 3.0 → aprobado
+# Si no → reprobado
+
+# print("Saber si un estudiante aprobo segun su nota final")
+# notaFinal = float(input("Ingresa la nota final: "))
+# if notaFinal >= 3.0 and notaFinal <= 5.0:
+#     print("Aprobado")
+# elif notaFinal > 0 and notaFinal < 3.0:
+#     print("Rebrobado")
+# else:
+#     print("La nota ingresada no es valida")
+    
+#-------------------------
+
+#Ejercicio 36
+#Tipo de triángulo: Sistema geométrico.
+# Requisitos
+# Tres lados:
+# equilátero
+# isósceles
+# escaleno
+
+# print("Saber el tipo de triangulo segun su lados")
+# primerLado = float(input("Ingresa la medida del primer lado del triangulo en cm: "))
+# segundoLado = float(input("Ingresa la medida del segundo lado del triangulo en cm: "))
+# tercerLado = float(input("Ingresa la medida del tercer lado del triangulo en cm: "))
+# if primerLado == segundoLado and primerLado == tercerLado and segundoLado == tercerLado:
+#     print("El triangulo es Equilatero porque sus tres lados son iguales")
+# elif (primerLado == segundoLado and tercerLado != primerLado) or (primerLado == tercerLado and segundoLado != primerLado) or (segundoLado == tercerLado and primerLado != segundoLado):
+#     print("El triangulo es Isosceles porque 2 de sus lados son iguales y un lado diferente")
+# elif (primerLado != segundoLado and primerLado != tercerLado and segundoLado != tercerLado):
+#     print("El triangulo es escaleno porque sus tres lados son diferentes")
+# else:
+#     print("El dato ingresado no es correcto")
+
+#--------------------------------
+
+#Ejercicio 37
+# Usuario y contraseña: Login real.
+# Requisitos
+# Validar ambos datos.
+
+# print("Validar usuario y contraseña de usuario")
+# usuarioRegistrado = "AlvarezDev"
+# contrasenaRegistrada = "Jtha9076"
+# usuario = input("Ingresa tu usuario para iniciar sesión: ")
+# contrasena = input("Ingresa tu contraseña: ")
+# if usuario == usuarioRegistrado and contrasena == contrasenaRegistrada:
+#     print(f"Bienvenido {usuarioRegistrado}")
+# else:
+#     print("Usuario o contraseña incorrecta")
+
+#--------------------------------------------
+#Ejercicio 38
+# Nota numérica a letra: Sistema escolar.
+# Requisitos
+# 1–5 → A–E
+
+print("Pasar una nota de numero a letra del abecedario")
+nota = float(input("Ingresa la nota entre 1 y 5: "))
+if nota >= 0 and nota <= 1:
+    print("La nota es A")
+elif nota > 1 and nota <= 2:
+    print("La nota es: B")
+elif nota > 2 and nota <= 3:
+    print("La nota es: C")
+elif nota > 3 and nota <= 4:
+    print("La nota es: D")
+elif nota > 4 and nota <= 5:
+    print("La nota es: E")
+else:
+    print("Nota invalida")
+
+
+#------------------------------
+
