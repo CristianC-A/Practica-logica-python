@@ -338,21 +338,57 @@
 # Requisitos
 # 1–5 → A–E
 
-print("Pasar una nota de numero a letra del abecedario")
-nota = float(input("Ingresa la nota entre 1 y 5: "))
-if nota >= 0 and nota <= 1:
-    print("La nota es A")
-elif nota > 1 and nota <= 2:
-    print("La nota es: B")
-elif nota > 2 and nota <= 3:
-    print("La nota es: C")
-elif nota > 3 and nota <= 4:
-    print("La nota es: D")
-elif nota > 4 and nota <= 5:
-    print("La nota es: E")
-else:
-    print("Nota invalida")
-
+# print("Pasar una nota de numero a letra del abecedario")
+# nota = float(input("Ingresa la nota entre 1 y 5: "))
+# if nota >= 0 and nota <= 1:
+#     print("La nota es A")
+# elif nota > 1 and nota <= 2:
+#     print("La nota es: B")
+# elif nota > 2 and nota <= 3:
+#     print("La nota es: C")
+# elif nota > 3 and nota <= 4:
+#     print("La nota es: D")
+# elif nota > 4 and nota <= 5:
+#     print("La nota es: E")
+# else:
+#     print("Nota invalida")
 
 #------------------------------
 
+#Ejercicio 39
+# Mensaje según hora: Sistema inteligente.
+# Requisitos
+# 6–12 → buenos días
+# 12–18 → buenas tardes
+# 18–24 → buenas noches
+
+# print("Segun la hora, dar un saludo")
+# hora = 5
+# if hora >= 0 and hora <= 12:
+#     print("Buenos dias")
+# elif hora > 12 and hora <= 18:
+#     print("Buenas tardes")
+# elif hora > 18 and hora <= 24:
+#     print("Buenas noches")
+# else:
+#     print("La hora es incorrecta")
+
+#----------------------------------
+
+#Ejercicio 40
+# Precio con cupón: E-commerce.
+# Requisitos
+# Si cupón válido → 15% descuento.
+
+print("Validar cupon para dar descuento")
+cuponValido = "AlvarezDev"
+precioCurso = 500.000
+valorActualizadoConCupon = 0
+print(f"El precio del curso que quieres es de: ${precioCurso}")
+cuponIngresado = input("Ingresa el cupon para acceder al descuento del 15%: ")
+if cuponIngresado == cuponValido:
+    valorActualizadoConCupon = precioCurso - (precioCurso * 0.15)  
+    print(f'''Cupon valido.
+          El nuevo valor del curso es de: {valorActualizadoConCupon}''')
+else:
+    print("Cupon no valido")
