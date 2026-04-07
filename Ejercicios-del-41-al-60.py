@@ -133,3 +133,31 @@
 # Pedir varios números.
 # Contar cuántos son positivos.
 
+print("Ingresar numeros y contar el numero de positivos")
+contador = 0
+numeros_ingresados = []
+numeros_positivos = []
+while True:
+    entrada_usuario = int(input("Ingresa un numero. Si quieres terminar ingresa 0: "))
+    numeros_ingresados.append(entrada_usuario)
+
+    if entrada_usuario > 0:
+        numeros_positivos.append(entrada_usuario)
+        contador += 1
+        continue
+    elif entrada_usuario == 0:
+        print("Ingrsaste 0.")
+        break
+
+print(f"Ingrsaste {contador} numeros positivos")
+print(f"Todos los numeros que ingresaste: {numeros_ingresados}")
+print(f"Todos los numeros positivos que ingresate: {numeros_positivos}")
+
+#=========================================
+
+#Ejercicio 50
+# Promedio de N números
+# Requisitos
+# Pedir cuántos números.
+# Calcular promedio.
+
